@@ -1,0 +1,39 @@
+table,tr{
+    border: 5px solid #989be3;
+    border-collapse: collapse;
+    padding: 5px
+}
+
+table{
+    margin: 0 auto;
+}
+
+td, th{
+    background-color: white;
+}
+
+.header{
+        color: white;
+        font-family: Pokemon;
+        font-size: 25px;
+        text-align: center;
+}
+body {
+    background-image: linear-gradient(to right, #e398bb, #989be3);
+    
+}
+
+p{
+        background-image: linear-gradient(#e398bb, #989be3);
+        color: transparent;
+        background-clip: text;
+        font-family: Pokemon;
+        font-size: 20px;
+        text-align: center;
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(Pokemon\ Classic.ttf);
+}
+

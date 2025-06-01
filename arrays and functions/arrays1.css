@@ -1,0 +1,51 @@
+.header{
+    text-align: center;
+    border-bottom: 10px solid #6e6d6d;
+    border-radius: 45px;
+    width: auto;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    font-family: Pokemon;
+    background-color: #cf3030;
+}
+
+body{
+    background-image: url("grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    font-family: Pokemon;
+}
+
+th{
+    border: #b5514c;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    background-color: #cf3030;
+    font-size: 40px;
+}
+
+td{
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+    color:#6e6d6d;
+
+    background-color: white;
+    font-size: 30px;
+
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(Pokemon\ Classic.ttf);
+}

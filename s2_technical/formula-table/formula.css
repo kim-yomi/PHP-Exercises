@@ -1,0 +1,22 @@
+th,tr,td,table{
+    text-align: center;
+}
+
+th{
+    font-size: 35px;
+}
+td{
+    padding: 20px;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+table, th,td{
+    margin: 0 auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}

@@ -1,0 +1,146 @@
+body{
+    background-color: #2a2a2b;
+    background-size: cover;
+}
+
+.scroll-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+  }
+  
+  .scroll-wrapper h1 {
+    position: sticky;
+    top: 0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+    z-index: 10;
+    white-space: normal;
+  }
+  
+
+.book-row{
+    display:flex
+    
+}
+
+h1{
+    text-align: center;
+    position: sticky;
+    opacity: 1;
+    font-family: Poppins;
+    color: white;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#e0e0e0
+}
+
+
+.page1{
+    position: relative;
+    display: inline-block;
+
+}
+
+.page1 .img-top{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    left: 0;
+    z-index: 99;
+
+}
+
+.page1:hover .img-top{
+    display: inline;
+
+}
+
+.page2{
+    position: relative;
+    display: inline-block;
+}
+
+.page2 .img-top{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    left: 0;
+    z-index: 99;
+}
+
+.page2:hover .img-top{
+    display: inline;
+}
+
+.page3{
+    position: relative;
+    display: inline-block;
+}
+
+.page3 .img-top{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    left: 0;
+    z-index: 99;
+}
+
+.page3:hover .img-top{
+    display: inline;
+}
+
+.page4{
+    position: relative;
+    display: inline-block;
+}
+
+.page4 .img-top{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    left: 0;
+    z-index: 99;
+}
+
+.page4:hover .img-top{
+    display: inline;
+}
+
+.page5{
+    position: relative;
+    display: inline-block;
+}
+
+.page5 .img-top{
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    left: 0;
+    z-index: 99;
+}
+
+.page5:hover .img-top{
+    display: inline;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("Poppins-Black\ copy.ttf");
+}

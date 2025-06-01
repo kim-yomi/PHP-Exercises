@@ -1,0 +1,22 @@
+th,tr,td,table{
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: Pokemon;
+}
+
+
+
+@font-face {
+    font-family: Pokemon;
+    src: url('Pokemon\ Classic.ttf');
+}
