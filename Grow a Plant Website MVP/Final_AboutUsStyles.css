@@ -1,0 +1,252 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+.background {
+    background-image: url('Assets/background.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a.logout {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 200px 60px 60px;
+    flex: 1;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .container {
+      display: flex;
+      padding: 1rem 2rem;
+    }
+
+    .sidebar {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.4);
+      border: 2px solid white;
+      margin-right: 1rem;
+    }
+
+    .sidebar-item {
+      padding: 1rem;
+      border-bottom: 1px solid white;
+      text-align: center;
+    }
+
+    .sidebar-item img {
+      width: 60%;
+    }
+
+    .main-content {
+      flex: 1;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 2rem;
+      color: white;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .header-text {
+      flex-grow: 1;
+    }
+
+    .main-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+
+    .icon-img {
+      width: 50px;
+      height: auto;
+      margin-left: 1rem;
+    }
+
+    .go-back {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
+
+    .go-back a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .entry {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .entry-text {
+      flex: 2;
+      margin-right: 1rem;
+    }
+
+    .entry-text h4 {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .entry-date {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    .entry-status {
+      flex: 1;
+      font-size: 0.9rem;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      justify-content: flex-start;
+    }
+
+    .status-icons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .status-box {
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 0.4rem 0.8rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      white-space: nowrap;
+    }
+
+    .entry img {
+      width: 150px;
+      border-radius: 10px;
+    }
+
+.team-section {
+            padding: 40px 60px 60px;
+            text-align: center;
+            flex: 1;
+        }
+
+.logos-top {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .logos-top img {
+            height: 60px;
+        }
+
+        .team-grid {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            flex-wrap: wrap;
+        }
+
+        .member {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            width: 220px;
+            backdrop-filter: blur(3px);
+            transition: transform 0.3s ease;
+        }
+
+        .member:hover {
+            transform: translateY(-5px);
+        }
+
+        .member img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .member h3 {
+            font-weight: bold;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        .member p {
+            color: #ddd;
+            font-style: italic;
+            margin-top: 5px;
+        }

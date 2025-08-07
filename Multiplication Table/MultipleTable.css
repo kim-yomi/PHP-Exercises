@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+}
+td {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    border: 5px solid black;
+}
+
+.pink {
+    background-color: pink;
+    color: black;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}

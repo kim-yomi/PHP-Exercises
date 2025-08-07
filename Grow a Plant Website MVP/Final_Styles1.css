@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+.background {
+    background-image: url('Assets/background.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo-img {
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a.logout {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 200px 60px 60px;
+    flex: 1;
+}
+
+.hero-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.8);
+}
+
+.hero-text p {
+    font-size: 1.5rem;
+    margin-top: 25px;
+    max-width: 95%;
+}
+
+.hero-buttons,
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+    transition: opacity 0.5s ease;
+}
+
+.hero-buttons button,
+.login-form input,
+.login-form button {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    width: 280px;
+    text-align: center;
+}
+
+.hero-buttons button:first-child {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 340px;
+}
+
+.login-form {
+    display: none;
+    opacity: 0;
+}
+
+.login-form input {
+    background-color: rgba(255, 255, 255, 0.12);
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 340px;
+    backdrop-filter: blur(4px);
+}
+
+.login-form input::placeholder {
+    color: #ddd;
+}
+
+.login-form.show {
+    display: flex;
+    opacity: 1;
+}
+
+.hero-buttons.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hero-button-link {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    width: 280px;
+    cursor: pointer;
+}

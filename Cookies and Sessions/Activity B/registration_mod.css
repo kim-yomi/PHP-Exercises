@@ -1,0 +1,39 @@
+
+
+body{
+    font-family: Poppins;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+
+.acontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.bcontainer{
+    display: inline-block;
+    text-align: center;
+    outline: 2px solid black;
+    padding: 15px;
+    background-color: white;
+    
+}
+form{
+    text-align: center;
+    outline: 2px solid black;
+    padding: 15px;
+    background-color: white;
+}
+
+@font-face{
+    font-family: Poppins;
+    src: url('Poppins.ttf');
+}
